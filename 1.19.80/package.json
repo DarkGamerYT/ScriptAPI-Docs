@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "typedoc": "^0.24.6"
+  },
+  "scripts": {
+    "generate": "npx typedoc src --entryPointStrategy packages"
+  },
+  "dependencies": {
+    "@minecraft/server": "^1.2.0-beta.1.19.80-stable",
+    "@minecraft/server-admin": "^1.0.0-beta.1.20.0-preview.22",
+    "@minecraft/server-gametest": "^1.0.0-beta.1.20.0-preview.22",
+    "@minecraft/server-net": "^1.0.0-beta.1.20.0-preview.22",
+    "@minecraft/server-ui": "^1.0.0-beta.1.19.80-stable",
+    "@types/mojang-gametest": "^0.1.5",
+    "@types/mojang-minecraft": "^0.1.6",
+    "@types/mojang-minecraft-ui": "^0.1.0",
+    "suika-docs-theme": "^1.0.7",
+    "typedoc-default-themes-dark": "^0.12.10"
+  }
+}

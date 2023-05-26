@@ -1,0 +1,7 @@
+{
+	"entryPoints": ["./src/*"],
+	"name": "ScriptAPI - v1.20.10.20",
+	"entryPointStrategy": "packages",
+	"includeVersion": false,
+	"readme": "./README.md"
+}

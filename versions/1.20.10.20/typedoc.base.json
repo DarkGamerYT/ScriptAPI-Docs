@@ -1,7 +1,0 @@
-{
-	"$schema": "https://typedoc.org/schema.json",
-	"includeVersion": false,
-	"excludeProtected": true,
-	"useTsLinkResolution": false,
-	"disableSources": true
-}

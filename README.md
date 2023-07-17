@@ -8,6 +8,7 @@
 - [ScriptAPI - 1.19.50](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.19.50/index.html)
 
 ## Preview
+- [ScriptAPI - 1.20.20.20](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.20.20/index.html)
 - [ScriptAPI - 1.20.10.23](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.10.23/index.html)
 - [ScriptAPI - 1.20.10.21](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.10.21/index.html)
 - [ScriptAPI - 1.20.10.20](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.10.20/index.html)

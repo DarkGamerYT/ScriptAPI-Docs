@@ -1,6 +1,7 @@
 # ScriptAPI Versions
 
 ## Stable
+- [ScriptAPI - 1.20.10](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.10/index.html)
 - [ScriptAPI - 1.20.0](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.0/index.html)
 - [ScriptAPI - 1.19.80](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.19.80/index.html)
 - [ScriptAPI - 1.19.70](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.19.70/index.html)

@@ -1,6 +1,7 @@
 # ScriptAPI Versions
 
 ## Stable
+- [ScriptAPI - 1.20.20](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.20/index.html)
 - [ScriptAPI - 1.20.10](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.10/index.html)
 - [ScriptAPI - 1.20.0](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.0/index.html)
 - [ScriptAPI - 1.19.80](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.19.80/index.html)
@@ -9,6 +10,7 @@
 - [ScriptAPI - 1.19.50](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.19.50/index.html)
 
 ## Preview
+- [ScriptAPI - 1.20.30.20](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.30.20/index.html)
 - [ScriptAPI - 1.20.20.22](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.20.22/index.html)
 - [ScriptAPI - 1.20.20.21](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.20.21/index.html)
 - [ScriptAPI - 1.20.20.20](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.20.20/index.html)

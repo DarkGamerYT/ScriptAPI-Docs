@@ -29,14 +29,7 @@ html:not(.filter-external) .tsd-is-external { display: none; }
                     <h1>
                         <a href="#versions">ScriptAPI Versions</a>
                     </h1>
-                    <h2>
-                        <a href="#stable">Stable</a>
-                    </h2>
-                    <ul id="stableVersions"></ul>
-                    <h2>
-                        <a href="#preview">Preview</a>
-                    </h2>
-                    <ul id="previewVersions"></ul>
+                    <ul id="scriptingVersions"></ul>
                     <a id="md:official-documentation" class="tsd-anchor"></a>
                     <h1>
                         <a href="#md:official-documentation">Official Documentation</a>
@@ -83,24 +76,6 @@ html:not(.filter-external) .tsd-is-external { display: none; }
                                             </a>
                                         </li>
                                         <li>
-                                            <ul>
-                                                <li>
-                                                    <a href="#stable">
-                                                        <span>Stable</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <ul>
-                                                <li>
-                                                    <a href="#preview">
-                                                        <span>Preview</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
                                             <a href="#md:official-documentation">
                                                 <span>Official <wbr>Documentation</span>
                                             </a>
@@ -113,9 +88,6 @@ html:not(.filter-external) .tsd-is-external { display: none; }
                 </div>
                 <div class="site-menu">
                     <nav class="tsd-navigation">
-                        <a href="index.html" class="current">
-                            <span>Script API Versions</span>
-                        </a>
                         <ul class="tsd-small-nested-navigation">
                             <li>
                                 <details class="tsd-index-accordion" data-has-instance="true">
@@ -124,26 +96,11 @@ html:not(.filter-external) .tsd-is-external { display: none; }
                                             <path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)"></path>
                                         </svg>
                                         <a>
-                                            <span>Stable</span>
+                                            <span>Versions</span>
                                         </a>
                                     </summary>
                                     <div class="tsd-accordion-details">
-                                        <ul id="stableVersionsSidebar" class="tsd-nested-navigation" style="list-style: square;"></ul>
-                                    </div>
-                                </details>
-                            </li>
-                            <li>
-                                <details class="tsd-index-accordion"data-has-instance="true">
-                                    <summary class="tsd-accordion-summary">
-                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" style="transform: rotate(-90deg);">
-                                            <path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)"></path>
-                                        </svg>
-                                        <a>
-                                            <span>Preview</span>
-                                        </a>
-                                    </summary>
-                                    <div class="tsd-accordion-details">
-                                        <ul id="previewVersionsSidebar" class="tsd-nested-navigation" style="list-style: square;"></ul>
+                                        <ul id="versionsSidebar" class="tsd-nested-navigation" style="list-style: square;"></ul>
                                     </div>
                                 </details>
                             </li>
@@ -153,53 +110,30 @@ html:not(.filter-external) .tsd-is-external { display: none; }
             </div>
         </div>
 		<script>
-			const versions = {
-				stable: [
-					"1.20.20",
-					"1.20.10",
-					"1.20.0",
-					"1.19.80",
-					"1.19.70",
-					"1.19.60",
-					"1.19.50",
-				],
-				preview: [
-					"1.20.30.20",
-					"1.20.20.22",
-					"1.20.20.21",
-					"1.20.20.20",
-					"1.20.10.23",
-					"1.20.10.21",
-					"1.20.10.20",
-					"1.20.0.24",
-				],
-			};
+			const versions = [
+				"1.20.40",
+				"1.20.30",
+				"1.20.20",
+				"1.20.10",
+				"1.20.0",
+				"1.19.80",
+				"1.19.70",
+				"1.19.60",
+				"1.19.50",
+			];
 			
-			const stableVersions = document.getElementById( "stableVersions" );
-			const stableVersionsSidebar = document.getElementById( "stableVersionsSidebar" );
-			const previewVersions = document.getElementById( "previewVersions" );
-			const previewVersionsSidebar = document.getElementById( "previewVersionsSidebar" );
+			const stableVersions = document.getElementById( "scriptingVersions" );
+			const stableVersionsSidebar = document.getElementById( "versionsSidebar" );
 			
-			for (const stable of versions.stable) {
+			for (const version of versions) {
 				const li = document.createElement( "li" );
-				li.innerHTML = `<a href="https://darkgameryt.github.io/ScriptAPI-Docs/versions/${stable}">ScriptAPI - ${stable}</a>`;
+				li.innerHTML = `<a href="https://darkgameryt.github.io/ScriptAPI-Docs/versions/${version}">ScriptAPI - ${version}</a>`;
 				stableVersions.append( li );
 				stableVersions.innerHTML = stableVersions.innerHTML;
 				
-				li.innerHTML = `<a href="https://darkgameryt.github.io/ScriptAPI-Docs/versions/${stable}"><span>${stable}</span></a>`;
+				li.innerHTML = `<a href="https://darkgameryt.github.io/ScriptAPI-Docs/versions/${version}"><span>${version}</span></a>`;
 				stableVersionsSidebar.append( li );
 				stableVersionsSidebar.innerHTML = stableVersionsSidebar.innerHTML;
-			};
-			
-			for (const preview of versions.preview) {
-				const li = document.createElement( "li" );
-				li.innerHTML = `<a href="https://darkgameryt.github.io/ScriptAPI-Docs/versions/${preview}">ScriptAPI - ${preview}</a>`;
-				previewVersions.append( li );
-				previewVersions.innerHTML = previewVersions.innerHTML;
-				
-				li.innerHTML = `<a href="https://darkgameryt.github.io/ScriptAPI-Docs/versions/${preview}"><span>${preview}</span></a>`;
-				previewVersionsSidebar.append( li );
-				previewVersionsSidebar.innerHTML = previewVersionsSidebar.innerHTML;
 			};
 		</script>
         <div class="overlay"></div>

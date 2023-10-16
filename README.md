@@ -1,5 +1,6 @@
 # ScriptAPI Versions
 
+- [ScriptAPI - 1.20.50](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.50/index.html)
 - [ScriptAPI - 1.20.40](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.40/index.html)
 - [ScriptAPI - 1.20.30](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.30/index.html)
 - [ScriptAPI - 1.20.20](https://darkgameryt.github.io/ScriptAPI-Docs/versions/1.20.20/index.html)
